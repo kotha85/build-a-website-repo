@@ -1,4 +1,179 @@
-.call:hover{
-    color: tomato;
-    cursor: url(''),auto;
+*{
+    padding: 0px;
+    margin: 0px;
 }
+
+.container{
+    background: rgba(0, 0, 0, 0.856);
+    padding: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 120px;   
+}
+
+
+.menus{
+    list-style: none;
+    color: snow;
+    display: flex;
+    cursor: pointer;
+}
+.menu-bar{
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.menu-bar:hover{
+    color: deeppink;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 5px solid dimgray; */
+    align-items: center;
+    color: snow;
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(8, 8, 8),#2c2b2b);
+    /* optional */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-highlight{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.banner-para{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.pg-photo{
+    width: 500px;
+}
+#red-primary{
+    padding: 10px 25px;
+    background-color: red;
+    color: snow;
+    border: none;
+}
+.section-highlight{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.meet-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    align-items: center;
+}
+.meeting-para{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.last-high{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.sec-last{
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(17, 17, 17),#333232);
+}
+.last-high{
+    color: snow;
+}
+.last-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+    /* height: 40vh; */ */
+    /* gap:20px */
+    /* background-color: black;  */
+    /* color: black; */
+}
+.last-piece{
+     width: 250px; 
+    height: 280px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    color: snow;
+    padding: 15px;
+    text-align: center;
+    /* margin: 20px; */
+
+}
+#lota{
+    width: 70px;
+}
+.btn{
+    margin-top: 10px;
+}
+.last-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fo-container{
+    /* background-size: 100vh; */
+     height: 60vh;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: black;
+    color: snow;
+    /* margin-bottom: 300px; */
+    /* margin-left: 40px;
+    margin-right: 20px; */
+
+}
+.child-div{
+    margin-bottom: 180px;
+}
+.footer-con{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.logo{
+    width: 150px;
+    margin-top: 60px;
+}
+.logo-para{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.footer-div{
+     
+     list-style: none;
+     margin-right: 100px;
+}
+.footer-con{
+    margin-bottom: 250px;
+}
+.ft-high{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-div li{
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+/* .ruf{
+    margin-top: 20px; 
+    /* margin-right: 1000px; */
+    /* margin-bottom: 270px; */
+} */
